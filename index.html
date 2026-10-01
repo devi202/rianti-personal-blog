@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rianti Devi Lestari</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff4f8;
+            color: #4a3040;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff8fbd, #f6b1cd);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header .icon {
+            font-size: 55px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin: 15px 0 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: white;
+            text-align: center;
+            padding: 18px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #d94f87;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #ff82b2;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(217, 79, 135, 0.12);
+        }
+
+        .card h2 {
+            color: #d94f87;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #ffd1e2;
+            padding-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.8;
+        }
+
+        .biodata {
+            background: #fff5f9;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .biodata p {
+            margin-bottom: 10px;
+        }
+
+        .label {
+            color: #d94f87;
+            font-weight: bold;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .contact-item {
+            background: #fff5f9;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 12px;
+        }
+
+        .contact-item strong {
+            color: #d94f87;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: #f783b5;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #d94f87;
+        }
+
+        footer {
+            background: #d94f87;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            .container {
+                width: 92%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="icon">🌸</div>
+
+        <h1>RIANTI DEVI LESTARI</h1>
+
+        <p>My Personal Blog</p>
+        <p>Mahasiswa Manajemen Pendidikan</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#about">Tentang Saya</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="home" class="card about">
+
+            <div class="about-icon">🌷</div>
+
+            <h2>Welcome to My Blog</h2>
+
+            <p>
+                Halo! Selamat datang di blog pribadi saya.
+                Blog ini dibuat untuk memperkenalkan diri saya
+                dan berbagi cerita mengenai perjalanan saya
+                sebagai mahasiswa.
+            </p>
+
+        </section>
+
+        <section id="biodata" class="card">
+
+            <h2>🌸 Biodata Saya</h2>
+
+            <div class="biodata">
+
+                <p>
+                    <span class="label">Nama:</span>
+                    Rianti Devi Lestari
+                </p>
+
+                <p>
+                    <span class="label">Tempat, Tanggal Lahir:</span>
+                    Jakarta, 16 Agustus 2005
+                </p>
+
+                <p>
+                    <span class="label">Jurusan:</span>
+                    Manajemen Pendidikan
+                </p>
+
+                <p>
+                    <span class="label">Status:</span>
+                    Mahasiswa
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="about" class="card">
+
+            <h2>💗 Tentang Saya</h2>
+
+            <p>
+                Halo, saya Rianti Devi Lestari. Saya merupakan
+                mahasiswa jurusan Manajemen Pendidikan.
+            </p>
+
+            <br>
+
+            <p>
+                Saya tertarik dengan dunia pendidikan dan ingin
+                terus belajar mengenai pengelolaan pendidikan,
+                organisasi, serta perkembangan teknologi dalam
+                dunia pendidikan.
+            </p>
+
+            <br>
+
+            <p>
+                Melalui pengalaman selama kuliah, saya ingin
+                terus mengembangkan kemampuan, menambah wawasan,
+                dan mendapatkan pengalaman baru.
+            </p>
+
+        </section>
+
+        <section id="contact" class="card">
+
+            <h2>💌 Kontak Saya</h2>
+
+            <div class="contact-item">
+                📧 <strong>Email:</strong>
+                riantidevilestari@gmail.com
+            </div>
+
+            <div class="contact-item">
+                📷 <strong>Instagram:</strong>
+                @rntidl_
+            </div>
+
+            <a href="mailto:riantidevilestari@gmail.com"
+               class="button">
+                Kirim Email 💌
+            </a>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>🌸 Thank You for Visiting My Blog 🌸</p>
+        <p>© 2026 Rianti Devi Lestari</p>
+    </footer>
+
+</body>
+</html>
